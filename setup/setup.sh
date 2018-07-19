@@ -177,7 +177,7 @@ case ${osinfo} in
     echo
     cd ../bin/
     MACHINE_TYPE=`uname -m`
-    if [ ${MACHINE_TYPE} == 'x86_64' ]; then
+    if [ "${MACHINE_TYPE}" == 'x86_64' ]; then
       wget --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36" https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
       wget https://github.com/mozilla/geckodriver/releases/download/v0.13.0/geckodriver-v0.13.0-linux64.tar.gz
       tar -xvf geckodriver-v0.13.0-linux64.tar.gz
@@ -237,7 +237,7 @@ case ${osinfo} in
     echo
     cd ../bin/
     MACHINE_TYPE=`uname -m`
-    if [ ${MACHINE_TYPE} == 'x86_64' ]; then
+    if [ "${MACHINE_TYPE}" == 'x86_64' ]; then
       wget --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36" https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
       tar jvxf phantomjs-2.1.1-linux-x86_64.tar.bz2
       cd phantomjs-2.1.1-linux-x86_64/bin/
@@ -265,6 +265,6 @@ case ${osinfo} in
 esac
 
 # Finish Message
-popd > /dev/null
+#popd > /dev/null
 echo '[*] Setup script completed successfully, enjoy EyeWitness! :)'
 echo
