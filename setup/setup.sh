@@ -53,14 +53,14 @@ case ${osinfo} in
     MACHINE_TYPE=`uname -m`
     if [ ${MACHINE_TYPE} == 'x86_64' ]; then
       wget -O phantomjs https://www.christophertruncer.com/InstallMe/kali2phantomjs
-      wget https://drive.google.com/uc?export=download&id=1oQ-e8vcCLo7LZJJkJ5RsibUThQd9vndE
+      wget "https://drive.google.com/uc?export=download&id=1oQ-e8vcCLo7LZJJkJ5RsibUThQd9vndE"
       tar -xvf geckodriver-v0.13.0-linux64.tar.gz
       rm geckodriver-v0.13.0-linux64.tar.gz
       mv geckodriver /usr/sbin
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     else
       wget -O phantomjs https://www.christophertruncer.com/InstallMe/phantom32kali2
-      wget https://github.com/mozilla/geckodriver/releases/download/v0.13.0/geckodriver-v0.13.0-linux32.tar.gz
+      wget "https://drive.google.com/uc?export=download&id=1oQ-e8vcCLo7LZJJkJ5RsibUThQd9vndE"
       tar -xvf geckodriver-v0.13.0-linux32.tar.gz
       rm geckodriver-v0.13.0-linux64.tar.gz
       mv geckodriver /usr/sbin
@@ -122,8 +122,8 @@ case ${osinfo} in
     cd ../bin/
     MACHINE_TYPE=`uname -m`
     if [ "${MACHINE_TYPE}" == 'x86_64' ]; then
-      wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G
-      wget https://drive.google.com/uc?export=download&id=1oQ-e8vcCLo7LZJJkJ5RsibUThQd9vndE
+      wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" "https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G"
+      wget "https://drive.google.com/uc?export=download&id=1oQ-e8vcCLo7LZJJkJ5RsibUThQd9vndE"
       tar -xvf geckodriver-v0.13.0-linux64.tar.gz
       rm geckodriver-v0.13.0-linux64.tar.gz
       mv geckodriver /usr/sbin
@@ -135,8 +135,8 @@ case ${osinfo} in
       rm -rf phantomjs-2.1.1-linux-x86_64
       rm phantomjs-2.1.1-linux-x86_64.tar.bz2
     else
-      wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G
-      wget https://github.com/mozilla/geckodriver/releases/download/v0.13.0/geckodriver-v0.13.0-linux32.tar.gz
+      wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" "https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G"
+      wget "https://drive.google.com/uc?export=download&id=1oQ-e8vcCLo7LZJJkJ5RsibUThQd9vndE"
       tar -xvf geckodriver-v0.13.0-linux32.tar.gz
       rm geckodriver-v0.13.0-linux64.tar.gz
       mv geckodriver /usr/sbin
@@ -178,8 +178,8 @@ case ${osinfo} in
     cd ../bin/
     MACHINE_TYPE=`uname -m`
     if [ "${MACHINE_TYPE}" == 'x86_64' ]; then
-      wget --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36" https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G
-      wget https://drive.google.com/uc?export=download&id=1oQ-e8vcCLo7LZJJkJ5RsibUThQd9vndE
+      wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" "https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G"
+      wget "https://drive.google.com/uc?export=download&id=1oQ-e8vcCLo7LZJJkJ5RsibUThQd9vndE"
       tar -xvf geckodriver-v0.13.0-linux64.tar.gz
       rm geckodriver-v0.13.0-linux64.tar.gz
       mv geckodriver /usr/sbin
@@ -190,8 +190,8 @@ case ${osinfo} in
       rm -rf phantomjs-2.1.1-linux-x86_64
       rm phantomjs-2.1.1-linux-x86_64.tar.bz2
     else
-      wget --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36" https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G
-      wget https://github.com/mozilla/geckodriver/releases/download/v0.13.0/geckodriver-v0.13.0-linux32.tar.gz
+      wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" "https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G"
+      wget "https://drive.google.com/uc?export=download&id=1oQ-e8vcCLo7LZJJkJ5RsibUThQd9vndE"
       tar -xvf geckodriver-v0.13.0-linux32.tar.gz
       rm geckodriver-v0.13.0-linux64.tar.gz
       mv geckodriver /usr/sbin
@@ -238,7 +238,7 @@ case ${osinfo} in
     cd ../bin/
     MACHINE_TYPE=`uname -m`
     if [ "${MACHINE_TYPE}" == 'x86_64' ]; then
-      wget --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36" https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G
+      wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" "https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G"
       tar jvxf phantomjs-2.1.1-linux-x86_64.tar.bz2
       cd phantomjs-2.1.1-linux-x86_64/bin/
       mv phantomjs ../../
@@ -246,7 +246,7 @@ case ${osinfo} in
       rm -rf phantomjs-2.1.1-linux-x86_64
       rm phantomjs-2.1.1-linux-x86_64.tar.bz2
     else
-      wget --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36" https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G
+      wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" "https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G"
       tar -xvf phantomjs-2.1.1-linux-i686.tar.bz2
       cd phantomjs-2.1.1-linux-i686/bin/
       mv phantomjs ../../
