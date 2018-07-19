@@ -141,12 +141,12 @@ case ${osinfo} in
       rm geckodriver-v0.13.0-linux64.tar.gz
       mv geckodriver /usr/sbin
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
-      tar jvxf phantomjs-2.1.1-linux-i686.tar.bz2
-      cd phantomjs-2.1.1-linux-i686/bin/
+      tar jvxf phantomjs-2.1.1-linux-x86_64.tar.bz2
+      cd phantomjs-2.1.1-linux-x86_64/bin/
       mv phantomjs ../../
       cd ../..
-      rm -rf phantomjs-2.1.1-linux-i686
-      rm phantomjs-2.1.1-linux-i686.tar.bz2
+      rm -rf phantomjs-2.1.1-linux-x86_64
+      rm phantomjs-2.1.1-linux-x86_64.tar.bz2
     fi
     cd ..
   ;;
@@ -195,12 +195,12 @@ case ${osinfo} in
       tar -xvf geckodriver-v0.13.0-linux32.tar.gz
       rm geckodriver-v0.13.0-linux64.tar.gz
       mv geckodriver /usr/sbin
-      tar jvxf phantomjs-2.1.1-linux-i686.tar.bz2
-      cd phantomjs-2.1.1-linux-i686/bin/
+      tar jvxf phantomjs-2.1.1-linux-x86_64.tar.bz2
+      cd phantomjs-2.1.1-linux-x86_64/bin/
       mv phantomjs ../../
       cd ../..
-      rm -rf phantomjs-2.1.1-linux-i686
-      rm phantomjs-2.1.1-linux-i686.tar.bz2
+      rm -rf phantomjs-2.1.1-linux-x86_64
+      rm phantomjs-2.1.1-linux-x86_64.tar.bz2
     fi
     cd ..
   ;;
@@ -247,12 +247,12 @@ case ${osinfo} in
       rm phantomjs-2.1.1-linux-x86_64.tar.bz2
     else
       wget -O phantomjs-2.1.1-linux-x86_64.tar.bz2 --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" "https://drive.google.com/uc?export=download&id=1xc14FtJ0M10PQp5Em1XsmcraOFDXHV_G"
-      tar jvxf phantomjs-2.1.1-linux-i686.tar.bz2
-      cd phantomjs-2.1.1-linux-i686/bin/
+      tar jvxf phantomjs-2.1.1-linux-x86_64.tar.bz2
+      cd phantomjs-2.1.1-linux-x86_64/bin/
       mv phantomjs ../../
       cd ../..
-      rm -rf phantomjs-2.1.1-linux-i686
-      rm phantomjs-2.1.1-linux-i686.tar.bz2
+      rm -rf phantomjs-2.1.1-linux-x86_64
+      rm phantomjs-2.1.1-linux-x86_64.tar.bz2
     fi
     cd ..
   ;;
